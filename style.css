@@ -1,0 +1,161 @@
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+body{
+  font-family:"Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #dfec21;
+}
+.container{
+  max-width: 1200PX;
+  margin: 50px auto;
+}
+.form{
+  display: flex;
+  flex-direction: space-between;
+}
+.movie__search{
+  width: 35%;
+  padding: 10px 15px;
+  font-size: 18px;
+  margin-bottom: 25px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+.movie__genre{
+  width: 28%;
+  padding-top: 10px;
+  font-size: 18px;
+  margin-bottom: 25px; 
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+.movie__btn{
+  width: 28%;
+  padding: 10px 15px;
+  font-size: 18px;
+  margin-bottom: 25px;
+  background-color: rgb(29, 67, 235);
+  color: white;
+  border-radius:5px;
+  border: none;
+}
+label{
+  font-weight: bold;
+}
+
+
+img{
+  border-radius: 10px;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 1;
+  margin-left: 40px;
+  filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+li{
+  border: 2px solid #000;
+  margin-top: 20px;
+  list-style-type: none;
+  width: 24%;
+  padding: 30px;
+  border-radius: 15px;
+  background: rgb(255, 255, 255);
+}
+.movie__list{
+  width: 1200px;
+  display: flex;
+  margin: 0 auto ;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+}
+.form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.btn-like{
+  width: 20px;
+  height: 20px;
+}
+
+.red{
+  color:red;
+}
+.header-heart{
+  font-size: 60px;
+  color: #fff;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.header-heart:active{
+  color:red;
+}
+.aside{
+  position: fixed;
+  top: 0;
+  right: -20%;
+  z-index: 2000;
+  height: 100vh;
+  width: 20%;
+  background-color: #000;
+  border: .1rem solid #000;
+  transition: .6s ease all;
+  overflow: auto;
+}
+.fa-trash-alt{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+.fa-trash-alt:active{
+  color: red;
+}
+.fa-chevron-right{
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  height: 20px;
+  font-size: 2rem;
+  color: rgb(156, 157, 158);
+  
+}
+.pos-left{
+  right: 0;
+}
+
+.pokem--item{
+  width: 200px;
+  margin-left: 20%;
+  background-color: #fff;
+  
+}
+.pokem--item-title{
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.pokem--genre{
+  font-size: 0.7rem;
+  margin-bottom: 5px;
+  
+}
+
+.active{
+  color: black;
+}
